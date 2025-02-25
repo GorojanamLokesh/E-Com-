@@ -113,9 +113,9 @@ function RegisterPage() {
               <label>PhoneNumber</label>
               <input
                type="tel"
-               id="Phone"
-               name="Phone" 
-               value={formData.Phone}    
+               id="phone"
+               name="phone" 
+               value={formData.phone}    
                onChange={handleChange}
                required
               ></input>
